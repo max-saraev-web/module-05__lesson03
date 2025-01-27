@@ -35,6 +35,13 @@
     transition-duration: 0.36s;
     transition-timing-function: ease-in-out;
 }
+.btn:disabled {
+    cursor: not-allowed;
+}
+.btn_disabled {
+    display: none;
+    border: 2px solid red;
+}
 
 .btn:hover {
     background-color: white;
